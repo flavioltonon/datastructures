@@ -77,8 +77,8 @@ func (l *SinglyLinkedList[T]) Len() int {
 	return l.length
 }
 
-// Traverse prints the nodes in the linked list. Time complexity: O(N).
-func (l *SinglyLinkedList[T]) Traverse() {
+// Print prints the nodes in the linked list. Time complexity: O(N).
+func (l *SinglyLinkedList[T]) Print() {
 	current := l.head
 
 	for {
